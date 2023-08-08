@@ -7,6 +7,7 @@ const PORT = 5000
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html')
+    console.log('Serwer request');
 
     //создание адресации по страницам
 
